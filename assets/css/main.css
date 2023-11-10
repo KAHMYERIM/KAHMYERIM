@@ -997,12 +997,12 @@ body.is-ie .spotlights>section {
 	opacity: 1;
 }
 
-.spotlights>section:nth-child(2) {
+/* .spotlights>section:nth-child(2) {
 	background-color: rgba(0, 0, 0, 0.05);
-}
+} */
 
 .spotlights>section:nth-child(3) {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #f8f8f8;
 }
 
 .spotlights>section.inactive>.image:before,
@@ -1103,7 +1103,7 @@ body.is-preload .spotlights>section>.content>.inner {
 }
 
 .wrapper.alt {
-	background-color: #261c3e;
+	background-color: #eee;
 }
 
 /* 메인 배경색 */
@@ -1134,7 +1134,7 @@ body.is-preload .spotlights>section>.content>.inner {
 }
 
 .wrapper.style2-alt {
-	background-color: #3e4094;
+	background-color: #eee;
 }
 
 /* 스킬 배경색 */
@@ -1144,7 +1144,7 @@ body.is-preload .spotlights>section>.content>.inner {
 }
 
 .wrapper.style3-alt {
-	background-color: #953d75;
+	background-color: #eee;
 }
 
 .wrapper.fullscreen {
