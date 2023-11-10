@@ -1,0 +1,52 @@
+*{margin:0; padding:0;}
+a{text-decoration:none;}
+body{
+    font-family: 'Pretendard';
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 1024px;
+}
+
+/* 배경색상 */
+.brand1{
+    background-color: #fff;
+}
+
+/* 이미지 크기 */
+img{
+    width:1024px;
+    display: block;
+    margin: auto;
+}
+
+/* 버튼 */
+.btn_1 {
+	list-style: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	text-align: center;
+	z-index: 99;
+}
+
+.btn_1 li {
+	margin: 10px;
+}
+
+.btn_1 li a {
+	font-size: 18px;
+	font-weight: 700;
+	display: inline-block;
+	padding: 5px 20px;
+	border-radius: 50px;
+	box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+	border: 3px solid #000;
+	background: #fff;
+	color: #000;
+}
+
+.btn_1 li a:hover{
+	border: 3px solid #000;
+	background: #000;
+	color: #fff;
+}
